@@ -1,0 +1,86 @@
+body{
+    background-image: url("main-background3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#ffffff;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h3, footer{
+    background-color: #1093AF;
+    text-align: center;
+}
+.page-wrapper{
+     display: grid;
+    grid-template-columns: 30% 50% 20%;
+    grid-template-rows: auto;
+}
+p{
+    text-shadow: 2px 2px #000000;
+}
+
+a{
+    text-shadow: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.intro, #zen-supporting, .sidebar {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.extra1{
+    position: absolute;
+    background: url(nemo.gif) no-repeat; 
+	z-index: -1;
+	top: 220px;
+	left: 1000px;
+	width: 264px; 
+	height: 257px;
+}
+
+.extra2{
+    position: absolute;
+    background: url(fish.gif) no-repeat; 
+	z-index: -1;
+	top: 220px;
+	left: 500px;
+	width: 416px; 
+	height: 416px;
+}
+
+.extra3{
+    position: absolute;
+    background: url(fish2.gif) no-repeat; 
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 500px; 
+	height: 375px;
+}
+
+.extra4{
+    position: absolute;
+    background: url(fish3.gif) no-repeat; 
+	z-index: -1;
+	top: 750px;
+	left: 1200px;
+	width: 250px; 
+	height: 218px;
+}
+
+.extra5{
+    position: absolute;
+    background: url(fish4.gif) no-repeat; 
+	z-index: -1;
+	top: 750px;
+	left: 0px;
+	width: 350px; 
+	height: 180px;
+}
+
